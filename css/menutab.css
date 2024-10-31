@@ -1,0 +1,118 @@
+.mvr-form-button {
+	background: -webkit-gradient(linear, left top, left bottom, from(#42a1ec), to(#0070c9));
+	background: -webkit-linear-gradient(#42a1ec, #0070c9);
+	background: linear-gradient(#42a1ec, #0070c9);
+	background-color: #0070c9;
+	border-color: #07c;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block !important;
+	font-family: "SF Pro Text", "Myriad Set Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Icons", "Apple Legacy Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -.021em;
+	line-height: 1.52947;
+	margin: 5px 5px 5px 5px !important;
+	min-width: 30px !important;
+	padding: 7px 10px !important;
+	text-align: center !important;
+	white-space: nowrap !important;
+}
+
+.mvr-form-button-max {
+	max-height: 30px;
+	max-width: 125px;
+}
+
+.mvr-nav-shortcode-outer-wrap {
+	background-color: white;
+	border: 1px solid #c3c4c7;
+	padding: 10px 10px 10px 10px;
+}
+
+.mvr-nav-shortcode-outer-wrap-clean {
+	display: flow-root;
+	padding: 10px 10px 10px 10px;
+}
+
+.mvr-nav-settingstabs-outer-wrap {
+	background-color: #f0f0f0;
+	border: 1px solid #c3c4c7;
+	padding: 10px 10px 0 10px;
+}
+
+.mvr-menu-header-item {
+	background: #c7c7c7;
+	border: 1px solid #afafaf;
+	color: #555;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.71428571;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.mvr-security-room-host {
+	max-width: 1063px;
+	z-index: 99;
+}
+
+.mvr-header-outer-wrap {
+	background-color: white;
+	padding: 10px;
+}
+
+.mvr-header-section {
+	position: relative;
+	width: 100%;
+}
+
+.mvr-header-section:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.mvr-header-title {
+	color: #848B92;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: -0.7px;
+	margin-bottom: 9px;
+	text-transform: uppercase;
+}
+
+.mvr-header-title:before {
+	display: none;
+}
+
+.mvr-header-table-right {
+	float: right;
+	text-align: right;
+	width: 65%
+}
+
+.mvr-header-table-left {
+	float: left;
+	text-align: left;
+	width: 35%;
+}
+
+.mvr-icons {
+	background-color: #fff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	color: #797156;
+	font-size: 23px !important;
+	height: 20px;
+	margin-bottom: 8px;
+	vertical-align: middle;
+	width: 25px;
+}

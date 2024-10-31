@@ -1,0 +1,193 @@
+.menu {
+	/* @TODO Namespace or remove this rule */
+	display: flex;
+}
+
+.mvr-title-header {
+	display: inline !important;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.mvr-admin-page-wrap {
+	border: 1px solid #c3c4c7;
+	margin-top: 0;
+	padding: 8px;
+}
+
+.mvr-preferences-paragraph {
+	color: rgb(32, 32, 32);
+	font-size: 13px;
+	font-weight: 500;
+	margin-bottom: 10px !important;
+}
+
+
+.mvr-icons-enabled,
+.mvr-icons-disabled {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.mvr-icons-enabled {
+	color: green;
+}
+
+.mvr-icons-disabled {
+	color: red;
+}
+
+.mvr-template-image {
+	color: #fff;
+	display: table;
+	font-size: 0;
+	height: 350px;
+	position: relative;
+	width: 350px;
+	z-index: 1;
+}
+
+.mvr-access-image {
+	border-radius: 50px;
+	color: #fff;
+	display: block;
+	font-size: 0;
+	height: 200px;
+	margin: 20px auto;
+	place-self: center;
+	position: relative;
+	width: 200px;
+	z-index: 1;
+}
+
+.mvr-row {
+	border-color: #C6C0AD;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
+	display: grid;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.mvr-header-text {
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.mvr-header-text:before {
+	display: none;
+}
+
+.mvr-button-table {
+	margin-bottom: 10px;
+	margin-top: 15px;
+
+}
+
+.mvr-template-table {
+	text-align: -webkit-center;
+	vertical-align: middle;
+	width: 50%;
+
+}
+
+.mvr-template-text {
+	font-size: 14px;
+	font-weight: 400;
+	text-align: -webkit-center;
+	vertical-align: middle;
+}
+
+.mvr-main-button-enabled {
+	background-color: rgb(41, 22, 150);
+	border-radius: 3px;
+	color: rgb(255 255 255) !important;
+	display: inline;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 2px !important;
+	padding: 8px;
+	text-align: -webkit-center;
+	vertical-align: middle;
+}
+
+
+.mvr-main-button-disabled {
+	background-color: rgb(221, 6, 6);
+	border-radius: 3px;
+	color: rgb(255 255 255) !important;
+	display: inline;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 2px !important;
+	padding: 8px;
+	text-align: -webkit-center;
+	vertical-align: middle;
+}
+
+.mvr-main-button-notice {
+	background-color: rgb(12, 0, 173);
+	border-radius: 3px;
+	color: rgb(255 255 255) !important;
+	display: inline;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 2px !important;
+	padding: 8px;
+	text-align: -webkit-center;
+	vertical-align: middle;
+}
+
+.mvr-select-box {
+	background-color: rgb(253, 253, 253) !important;
+	border: 1px solid #6d6d6d !important;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px;
+	vertical-align: middle;
+	width: 60% !important;
+}
+
+.mvr-hide {
+	display: none;
+}
+
+.mvr-reception-image:hover + .mvr-hide {
+	background-color: rgb(253, 253, 253) !important;
+	border: 3px solid #d2d2d2;
+	color: rgb(41, 41, 41);
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px;
+	position: absolute;
+	width: 70% !important;
+}
+
+.mvr-video-template:hover + .mvr-hide {
+	background-color: rgb(253, 253, 253) !important;
+	border: 3px solid #d2d2d2;
+	color: rgb(41, 41, 41);
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px;
+	position: absolute;
+	width: 70% !important;
+}
+
+.mvr-custom-video:hover + .mvr-hide {
+	background-color: rgb(253, 253, 253) !important;
+	border: 3px solid #d2d2d2;
+	color: rgb(41, 41, 41);
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px;
+	position: absolute;
+	width: 70% !important;
+}

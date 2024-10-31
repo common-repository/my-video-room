@@ -1,0 +1,67 @@
+table.myvideoroom-room-builder-output {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.myvideoroom-room-builder-output th,
+table.myvideoroom-room-builder-output td {
+	padding: 8px;
+	vertical-align: top;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help {
+	display: inline-block;
+	height: 1em;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help i {
+	background: none;
+	border-width: 0;
+	box-shadow: none;
+	margin: 0;
+	min-width: 0;
+	padding: 0;
+	text-indent: -0.3em;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help i:before {
+	cursor: pointer;
+	opacity: 0.6;
+	position: relative;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help:hover i:before {
+	opacity: 0.9;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help i:after {
+	border-bottom-color: inherit;
+	border-bottom-style: solid;
+	border-bottom-width: 10px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: none;
+	content: "";
+	display: block;
+	height: 0;
+	margin-left: -0.15em;
+	opacity: 0;
+	position: absolute;
+	transition: opacity 400ms;
+	width: 0;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help:hover i:after {
+	opacity: 1;
+}
+
+.myvideoroom-room-builder-settings .myvideoroom-show-help em {
+	display: inline-block;
+	font-size: 0.9em;
+	font-style: normal;
+	margin: calc(1em + 10px) 0 0 -1.3em;
+	max-width: 600px;
+	position: absolute;
+	width: calc(100% - 32px);
+	z-index: 100;
+}

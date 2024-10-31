@@ -1,0 +1,66 @@
+/**
+ * The frontend css for MyVideoRoom
+ *
+ * @package MyVideoRoomPlugin
+ */
+
+.myvideoroom-nav-tab-wrapper {
+	clear: both;
+	margin-bottom: 16px;
+	overflow: hidden;
+}
+
+.myvideoroom-nav-tab-wrapper ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.myvideoroom-nav-tab-wrapper li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 2;
+}
+
+.myvideoroom-nav-tab-wrapper li:after {
+	border-bottom: 1px solid #c3c4c7;
+	bottom: 0;
+	clear: both;
+	content: "\00a0";
+	display: inline-block;
+	margin-left: -1px;
+	padding-right: 2px;
+	position: absolute;
+	z-index: 1;
+}
+
+.myvideoroom-nav-tab-wrapper li:last-child:after {
+	width: 1000%;
+}
+
+.myvideoroom-nav-tab-wrapper li a {
+	border: 1px solid #c3c4c7;
+	border-radius: 3px 3px 0 0;
+	display: inline-block;
+	padding: 4px 12px;
+}
+
+.myvideoroom-nav-tab-wrapper li a.nav-tab-active {
+	border-bottom: 1px solid transparent;
+}
+
+.myvideoroom-nav-tab-wrapper li a:not(.nav-tab-active) {
+	background: #dcdcde;
+}
+
+.myvideoroom-nav-tab-wrapper li a.nav-tab-active,
+.myvideoroom-nav-tab-wrapper li a:not(.nav-tab-active) {
+	text-decoration: none;
+}
+
+.myvideoroom-nav-tab-wrapper li a.nav-tab-active:hover,
+.myvideoroom-nav-tab-wrapper li a:not(.nav-tab-active):hover {
+	text-decoration: underline;
+}
